@@ -20,7 +20,8 @@ int main(){
     for(int i = 0;i < n; i++){
         cout<<sum_arr[i]<<" ";
     }*/
-
+   
+   //KIDS with greatest number of candies
    int extc;
    cin>>extc;
    int max = arr[0];
