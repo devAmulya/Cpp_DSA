@@ -15,7 +15,7 @@ bool binarySearch(int arr[], int n, int key){
     int s = 0;
     int e = n-1;
     while(s<=e){
-        int mid = (s+e)/2;
+        int mid = s + (e-s)/2;
         if(arr[mid]==key){
             cout<<"key found at place : "<<mid+1;
             return true;
