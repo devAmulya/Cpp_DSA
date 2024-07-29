@@ -73,7 +73,7 @@ int main(){
 
   int j = 0;
   int num = 0;
-  int mx = -1;
+  int mx = -1; 
   /* No Brainer if else statement
   if(arr[j] > arr[j+1]){
     num = 1;
