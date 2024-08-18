@@ -15,7 +15,7 @@ int main(){
     
     /*General
     int a = 10;
-    int *ptr;
+    int *ptr; //Bad practise always assign value 
     ptr = &a;
     cout<<&a<<endl;    //Addres of a
     cout<<ptr<<endl;   //Addres of a
@@ -42,8 +42,7 @@ int main(){
 
     /*Pointer to Pointer
     int a = 10;
-    int *p;
-    p = &a;
+    int *p = &a;
     cout<<*p<<endl;
     int **q = &p;
     cout<<*q<<endl;
